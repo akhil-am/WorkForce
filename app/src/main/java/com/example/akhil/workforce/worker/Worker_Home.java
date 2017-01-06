@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import com.example.akhil.workforce.R;
-public class Worker_Home extends Fragment {
+public class Worker_Home extends Fragment{
 
     @Nullable
     @Override
