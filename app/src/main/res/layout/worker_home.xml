@@ -23,7 +23,9 @@
     android:orientation="horizontal">
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp">
 
     <Button
      android:layout_width="wrap_content"
