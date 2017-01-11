@@ -30,14 +30,14 @@
      android:layout_height="wrap_content"
         android:text="Accept"
         android:id="@+id/accept"
-       android:drawableStart="@drawable/Approve"/>
+       android:drawableStart="@drawable/approve"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:text="Reject"
             android:id="@+id/reject"
-            android:drawableStart="@drawable/Disapprove"/>
+            android:drawableStart="@drawable/disapprove"/>
     </RelativeLayout>
 
 
