@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp">
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/job_alert"
+        android:height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+<LinearLayout
+    android:layout_below="@+id/job_alert"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp">
+
+    <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+        android:text="Accept"
+        android:id="@+id/accept"
+       android:drawableStart="@drawable/approve"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Reject"
+            android:id="@+id/reject"
+            android:drawableStart="@drawable/disapprove"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+</RelativeLayout>
+
